@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Expensify">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sidebar">
+        <activity
+            android:name="com.myapp.Expensify.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myapp.Expensify.AboutApp" />
+        <activity android:name="com.myapp.Expensify.custom_filter" />
+        <activity android:name="com.myapp.Expensify.WeekAnalysis" />
+        <activity android:name="com.myapp.Expensify.MonthAnalysis" />
+        <activity android:name="com.myapp.Expensify.YearAnalysis" />
+        <activity android:name="com.myapp.Expensify.AddBudget" />
+        <activity android:name="com.myapp.Expensify.AddCategory" />
+        <activity android:name="com.myapp.Expensify.Settings" />
+        <activity android:name="com.myapp.Expensify.Category" />
+        <activity android:name="com.myapp.Expensify.Budget" />
+        <activity android:name="com.myapp.Expensify.MonthView" />
+        <activity android:name="com.myapp.Expensify.CustomView" />
+        <activity android:name="com.myapp.Expensify.DayView" />
+        <activity android:name="com.myapp.Expensify.addincome" />
+        <activity android:name="com.myapp.Expensify.AllTransactions" />
+        <activity android:name="com.myapp.Expensify.MainActivity"/>
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+    </application>
+
+</manifest>
