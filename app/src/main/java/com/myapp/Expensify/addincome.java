@@ -249,8 +249,9 @@ public class addincome extends AppCompatActivity implements AdapterView.OnItemCl
                 btn1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+//should add specific text for fault or empty input
                         if(ex1.getText().toString().isEmpty() || ex2.getText().toString().isEmpty() || ex3.getText().toString().isEmpty() || rg1.getCheckedRadioButtonId() == -1 || rg2.getCheckedRadioButtonId() == -1) {
-                            Toast.makeText(addincome.this, "You have not entered proper data", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(addincome.this, "Please enter all the required feilds", Toast.LENGTH_SHORT).show();
                         }
                         else {
                             dbHelper updateDB = new dbHelper(addincome.this);
@@ -345,8 +346,8 @@ public class addincome extends AppCompatActivity implements AdapterView.OnItemCl
     @Override
     public void onClick(View v) {
         if(ex1.getText().toString().isEmpty() || ex2.getText().toString().isEmpty() || ex3.getText().toString().isEmpty() )
-        {
-            Toast.makeText(this, "You have not entered proper data", Toast.LENGTH_SHORT).show();
+        {//should specify the text for fault or empty input for each fiels
+            Toast.makeText(this, "Please enter all required fields", Toast.LENGTH_SHORT).show();
             ex1.setText(null);
             ex2.setText(null);
             ex3.setText(null);

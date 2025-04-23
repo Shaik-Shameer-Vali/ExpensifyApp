@@ -26,6 +26,7 @@
         android:layout_height="41dp"
         android:fontFamily="@font/montserrat_alternates_extrabold_italic"
         android:text="Expensify"
+        android:textColor="#ff6500"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -9,6 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bgcolor">#EEEEEE</color>
     <color name="btncolor">#FF998C</color>
-    <color name="bgmcolor">#FFFFFF</color>
-    <color name="bgmtxt">#000000</color>
+    <color name="bgmcolor">#000000</color>
+    <color name="bgmtxt">#FFFFFF</color>
 </resources>

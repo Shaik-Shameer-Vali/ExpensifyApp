@@ -161,7 +161,7 @@ public class  AddBudget extends AppCompatActivity implements View.OnClickListene
                     @Override
                     public void onClick(View v) {
                         if(et2.getText().toString().isEmpty()) {
-                            Toast.makeText(AddBudget.this, "You have not entered Proper data", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(AddBudget.this, "Please enter all required fields", Toast.LENGTH_SHORT).show();
                         }
                         else {
                             dbHelper updateDB = new dbHelper(AddBudget.this);

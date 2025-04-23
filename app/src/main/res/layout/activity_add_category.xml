@@ -37,6 +37,7 @@
                 android:layout_marginTop="60dp"
                 android:ems="10"
                 android:hint="Category Name"
+                android:textColorHint="@color/teal_700"
                 app:layout_constraintStart_toStartOf="@+id/tvcategory"
                 app:layout_constraintTop_toBottomOf="@+id/tvcategory" />
 
@@ -89,6 +90,7 @@
                 android:layout_marginTop="32dp"
                 android:ems="10"
                 android:hint="Note"
+                android:textColorHint="@color/teal_700"
                 android:inputType="textMultiLine"
                 android:maxLines="3"
                 android:overScrollMode="always"

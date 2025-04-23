@@ -42,6 +42,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:hint="Month"
+            android:textColorHint="@color/teal_700"
             android:textSize="30sp" />
 
         <ImageView
